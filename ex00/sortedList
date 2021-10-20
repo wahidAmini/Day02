@@ -1,1 +1,3 @@
-ls | tee sorted.txt | wc -l
+
+ls | sort | tee > sorted.txt | ls | wc -l
+
